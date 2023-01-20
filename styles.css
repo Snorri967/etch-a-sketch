@@ -12,9 +12,68 @@ body {
   align-items: center;
 }
 
+.title {
+  position: absolute;
+  top: 13%;
+  font-size: 38px;
+  color: #fff;
+}
+
+.circle1, 
+.circle2 {
+  position: absolute;
+  bottom: 12.5%;
+  background-color: grey;
+  border-radius: 100%;
+  height: 60px;
+  width: 60px;
+}
+
+.circle1 {
+  left: 60%;
+}
+
+.circle2 {
+  right: 60%;
+}
+
+button {
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+  font-size: 16px;
+  position: fixed;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+.gridSizeButton {
+  top: 30%;
+  right: 63.70%;
+}
+
+.blackPenButton {
+  top: 30%;
+  left: 63.70%;
+}
+
+.multiColorPenButton {
+  bottom: 30%;
+  left: 63.70%;
+}
+
+.resetButton {
+  bottom: 30%;
+  right: 63.70%;
+}
+
 .container {
-  width: 500px;
-  height: 500px;
+  border: 75px solid rgb(148, 0, 0);
+  border-radius: 10px;
+  width: 650px;
+  height: 650px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,7 +81,5 @@ body {
 }
 
 .container > div {
-  height: 31.25px;
-  width: 31.25px;
-  border: 1px solid black;
+  border: 1px solid grey;
 }
